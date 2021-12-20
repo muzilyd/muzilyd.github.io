@@ -7,7 +7,7 @@
 ## Contact
 
 - Address
-  - **Sun Yat-sen University - 132 Waihuan East Rd. - Guangzhou, China**
+  - **ShangHai University - 132 Waihuan East Rd. - Guangzhou, China**
 - Site
   - **<https://wu-kan.cn>**
 - [Resume](https://wu-kan.github.io/resume/resume.pdf)
