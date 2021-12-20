@@ -10,7 +10,7 @@
   - **NanTong University - No. 9 Seyan Road, Nantong City. - Jiangsu, China**
 - Site
   - **<https://github.com/muzilyd>**
-- [Resume](https://wu-kan.github.io/resume/resume.pdf)
+  - [Resume](https://wu-kan.github.io/resume/resume.pdf)
 
 <!-- .slide vertical=true -->
 
