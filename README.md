@@ -101,7 +101,7 @@ School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou
 
 - **C/C++**, Familiar
 - **Python**, Familiar
-- **Markdown**, Familiar
+- **Embedded Technology**, Familiar&Learning
 - **Deep Reinforcement Learning**, Familiar&Learning
 - **Cooperative Control of Multi-agent Systems**, Learning
 - **Model Predictive Control**, Learning
