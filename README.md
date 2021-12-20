@@ -7,7 +7,7 @@
 ## Contact
 
 - Address
-  - **NanTong University - 132 Waihuan East Rd. - Guangzhou, China**
+  - **NanTong University - 132 Waihuan East Rd. - Jiangsu, China**
 - Site
   - **<https://wu-kan.cn>**
 - [Resume](https://wu-kan.github.io/resume/resume.pdf)
