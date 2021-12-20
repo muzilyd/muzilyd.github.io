@@ -17,7 +17,7 @@
 - Phone
   - **+86 18756280097**
 - WeChat
-  - **Wu-\_-Kan**
+  - **liyundi-lucky**
 - E-mail:
   - **[i[at]wu-kan.cn](mailto:i@wu-kan.cn)**
   - **[wukan3[at]mail2.sysu.edu.cn](mailto:wukan3@mail2.sysu.edu.cn)**
@@ -110,15 +110,8 @@ School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou
 <!-- .slide vertical=true -->
 
 - **C/C++**, Familiar
-  - **CUDA/HIP/ROCm**, Familiar&Learning
-  - **MPI**, Familiar
-  - **OpenMP**, Familiar
 - **Python**, Familiar
-
-<!-- .slide vertical=true -->
-
 - **Markdown**, Familiar
-- **$\LaTeX$**, Familiar
-- **Shell**, Familiar&Learning
-- **Git**, Familiar
-- **VSCode**, Familiar
+- **Deep Reinforcement Learning**, Familiar&Learning
+- **Cooperative Control of Multi-agent Systems**, Learning
+- **Model Predictive Control**, Learning
