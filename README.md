@@ -83,10 +83,7 @@ School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou
 
 ## Experience
 
-- Teach Assistant of Computer System Organization, Sept. 2021 - Jan. 2022 (expected)
-- Intern of Inference Engine, Speech & Audio Team (Beijing), Bytedance AI Lab, Feb. 2021 - Aug. 2021
-- Leader of [SYSU-SCC](https://github.com/SYSU-SCC), Mar. 2020 - Jul. 2021
-- Quiz Setter, Judge and Host of the Closing Ceremony for [SYSU Programing Contest](https://wu-kan.cn/2020/11/29/SYSU-Collegiate-Programming-Contest-2020,-Onsite/), Oct. 2020
+- Leader of NTU-Robomaster, December. 2019 - Now
 
 <!-- .slide -->
 
