@@ -191,7 +191,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href: /tags/
               - title: '<i class="fas fa-archive fa-fw"></i> 归档'
                 href: /archive/
-              - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
+              - title: '<i class="fas fa-coffee fa-fw"></i> 打赏1'
                 href: /merger/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
