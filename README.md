@@ -7,7 +7,7 @@
 ## Contact
 
 - Address
-  - **NanTong University - 132 Waihuan East Rd. - Jiangsu, China**
+  - **NanTong University - No. 9 Seyan Road, Nantong City. - Jiangsu, China**
 - Site
   - **<https://wu-kan.cn>**
 - [Resume](https://wu-kan.github.io/resume/resume.pdf)
