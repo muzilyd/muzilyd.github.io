@@ -58,7 +58,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://s4.ax1x.com/2021/12/21/TMqmKe.jpg"
+                href="https://s4.ax1x.com/2021/12/21/TMOGng.jpg"
               />
               <link
                 rel="shortcut
