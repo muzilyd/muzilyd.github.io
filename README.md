@@ -27,7 +27,7 @@
 
 <!-- .slide vertical=true -->
 
-School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou
+ZhangJian College, NanTong University, JiangSu
 
 - M.S. in Computer Science, Sept. 2021 - Jul. 2024 (expected)
   - Advised by [Prof. X. Zhang](https://xianweiz.github.io/) at [NSCC-GZ](http://www.nscc-gz.cn/index.html)
