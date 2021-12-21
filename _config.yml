@@ -382,8 +382,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </div>
               - | # 公安网备信息
                 <div>
-                  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
-                    公安
+                  <a href="http://www.github.com">
+                    <img src="https://cdn.jsdelivr.net/gh/wu-kan/blog-image/2021/12/07/0.png" class="fa-fw"></img>
                   </a>
                 </div>
             wordcount: # 全站字数统计
