@@ -58,12 +58,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="http://m.qpic.cn/psc?/8c02dcee-5838-4eb6-a2e3-967dadc42423/ruAMsa53pVQWN7FLK88i5oeA77fSodMKhBYA2E91.O8YN3YiJCpkByaIg2VEzv9TECLhhIJmVmBqUonZ8BPhEmGlLZGITcnSh663K3jHBpc!/mnull&bo=QAFAAQAAAAABByA!&rf=photolist&t=5"
+                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
               />
               <link
                 rel="shortcut
                 icon"
-                href="http://m.qpic.cn/psc?/8c02dcee-5838-4eb6-a2e3-967dadc42423/ruAMsa53pVQWN7FLK88i5sTvVuEVo*ca10V3k4YJbaZMzj4dDYWUUGt43wEw*KHxrRIELLb2DgNz2.R2c6u1yTAbJW121C2TxLAafbpK6n4!/mnull&bo=IAAgAAAAAAABByA!&rf=photolist&t=5"
+                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=32"
               />
             - | # 来自lanyon的页面样式，不要改
               <link
@@ -181,7 +181,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: http://m.qpic.cn/psc?/8c02dcee-5838-4eb6-a2e3-967dadc42423/ruAMsa53pVQWN7FLK88i5oeA77fSodMKhBYA2E91.O8YN3YiJCpkByaIg2VEzv9TECLhhIJmVmBqUonZ8BPhEmGlLZGITcnSh663K3jHBpc!/mnull&bo=QAFAAQAAAAABByA!&rf=photolist&t=5 # 头像的地址
+              img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
@@ -383,7 +383,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - | # 公安网备信息
                 <div>
                   <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
-                    <img src="https://cdn.jsdelivr.net/gh/wu-kan/blog-image/2021/12/07/0.png" class="fa-fw"></img>
+                    公安
+                    #<img src="https://cdn.jsdelivr.net/gh/wu-kan/blog-image/2021/12/07/0.png" class="fa-fw"></img>
                   </a>
                 </div>
             wordcount: # 全站字数统计
