@@ -58,7 +58,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
+                href="http://r.photo.store.qq.com/psc?/8c02dcee-5838-4eb6-a2e3-967dadc42423/45NBuzDIW489QBoVep5mcZFDckAHp1Y2.wplDG48KAGn2tTvQrNwnnO96fxYPTmi2vUMz8H5CWnivkppcYaqalD1mql4SHOpFus3nzbD8vY!/r"
               />
               <link
                 rel="shortcut
