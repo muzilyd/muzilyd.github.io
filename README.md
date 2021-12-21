@@ -76,6 +76,7 @@ School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou
 ## Experience
 
 - Leader of NTU-Robomaster, Dec. 2019 - Now
+- Visiting at the university of Macau, jan. 2020
 
 <!-- .slide -->
 
