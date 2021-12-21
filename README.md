@@ -34,10 +34,10 @@ ZhangJian College, NanTong University, JiangSu
 
 <!-- .slide vertical=true -->
 
-- B.E. in Computer Science, Supercomputer Class, Sept. 2017 - Jul. 2021
-  - Principle of Supercomputer
-  - Parallel and Distributed Computing
-  - High Performance Computing
+- B.E. in Intelligent Manufacturing, Sept. 2018 - Jul. 2022(expected)
+  - Embedded Tecnology
+  - Robot Control
+  - Deep Reinforcement Learning
   - Multicore Computing
 
 <!-- .slide -->
