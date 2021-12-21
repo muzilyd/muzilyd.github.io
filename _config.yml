@@ -3,7 +3,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   多智能体<br/>
   钢琴<br/>
   围棋<br/>
-  <a href="mailto:i@wu-kan.cn">
+  <a href="mailto:ltd20000805@qq.com">
     <i class="fas fa-envelope"></i>
   </a>
   <a href="https://github.com/muzilyd">
@@ -378,21 +378,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - | # Copyright声明
                 <div>
                   <i class="fas fa-copyright fa-fw"></i>
-                  2020-2021 WuK
-                </div>
-              - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
-                <div>
-                  <i class="fas fa-info-circle fa-fw"></i>
-                  <a href="http://beian.miit.gov.cn">
-                    粤ICP备 20024947号
-                  </a>
-                </div>
-              - | # 公安网备信息
-                <div>
-                  <img src="https://cdn.jsdelivr.net/gh/wu-kan/blog-image/2021/12/07/0.png" class="fa-fw"></img>
-                  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
-                    皖公网安备 34070202000407号
-                  </a>
+                  2021-2022 lyd
                 </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
