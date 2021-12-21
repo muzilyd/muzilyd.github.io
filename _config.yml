@@ -181,7 +181,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
+              img: r.photo.store.qq.com/psc?/8c02dcee-5838-4eb6-a2e3-967dadc42423/45NBuzDIW489QBoVep5mcZFDckAHp1Y2.wplDG48KAGn2tTvQrNwnnO96fxYPTmi2vUMz8H5CWnivkppcYaqalD1mql4SHOpFus3nzbD8vY!/r # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
