@@ -15,7 +15,7 @@
 <!-- .slide vertical=true -->
 
 - Phone
-  - **+86 18756280097**
+  - **+86 15252510531**
 - WeChat
   - **liyundi-lucky**
 - E-mail:
