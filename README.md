@@ -25,20 +25,12 @@
 
 ## Education
 
-<!-- .slide vertical=true -->
-
 ZhangJian College, NanTong University, JiangSu
-
-- M.S. in Computer Science, Sept. 2021 - Jul. 2024 (expected)
-  - Advised by [Prof. X. Zhang](https://xianweiz.github.io/) at [NSCC-GZ](http://www.nscc-gz.cn/index.html)
-
-<!-- .slide vertical=true -->
 
 - B.E. in Intelligent Manufacturing, Sept. 2018 - Jul. 2022(expected)
   - Embedded Tecnology
   - Robot Control
   - Deep Reinforcement Learning
-  - Multicore Computing
 
 <!-- .slide -->
 
