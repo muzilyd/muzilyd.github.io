@@ -29,7 +29,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             <script src="https://utteranc.es/client.js"
               repo="muzilyd/utterances-storage"
               issue-term="pathname"
-              label="留言·lyd"
               theme="github-light"
               crossorigin="anonymous"
               async>
