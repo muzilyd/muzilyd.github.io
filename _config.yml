@@ -10,7 +10,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-github"></i>
   </a>
   <a href="https://blog.csdn.net/azreallyd?spm=1010.2135.3001.5343">
-    <![image](https://s4.ax1x.com/2021/12/23/TG76de.jpg)>
+    <img src="https://s4.ax1x.com/2021/12/23/TG76de.jpg"></img>
   </a>
   <a href="https://www.zhihu.com/people/muzilyd">
     <i class="fab fa-zhihu"></i>
