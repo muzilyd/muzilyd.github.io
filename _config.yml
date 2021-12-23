@@ -598,7 +598,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
               <script>
                 var myname = "LYD";
-                var profile = "ltd20000805@qq.com";
+                var profile = "https://s4.ax1x.com/2021/12/23/T80RMV.jpg";
                 var usage = "payment";
                 var wechat = "wxp://f2f0qsbJpriA5tWn4CrbQk70lSKS087HklreMayZgSgUmN-Xm1pnlLVCI060PTx5wheB";
                 var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ-5bR5gMY9_yPjgY%3D_xxx_sign&u=1020545915&n=%E6%9C%A8%E5%AD%90%E2%98%81%E7%94%B1";
