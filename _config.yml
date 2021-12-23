@@ -462,16 +462,22 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 }
               </style>
             - | # 网站背景图片，分竖屏、宽屏；改链接即可，不想用可以把这一项全删掉；要换壁纸图片的话可把url内的部分换成你自己的，比如你放在 /assets/image/background.jpg，那就改成 url(/assets/image/background.jpg)
-              <style>
-                .warp {
-                  background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/74559485_p1.webp);
-                }
-                @media (min-aspect-ratio: 2400/1850) {
-                  .wrap {
-                    background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/71932901_p0.webp);
+              <style type = "text/css"> 
+                  @media(prefers - color - scheme: dark) {.js_darkmode__0 {
+                      color: rgba(0, 0, 0, 0.9) ! important;
+                      background - image: linear - gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+                      url("https://blog-static.cnblogs.com/files/melodyjerry/%E8%93%9D%E8%89%B2%E7%A2%8E%E7%89%87%E9%A3%9E%E8%88%9E.gif") ! important;
+                  }.js_darkmode__1 {
+                      color: rgba(0, 0, 0, 0.9) ! important;
+                  }.js_darkmode__bg__0 {
+                      background - image: linear - gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+                      url("https://blog-static.cnblogs.com/files/melodyjerry/%E8%93%9D%E8%89%B2%E7%A2%8E%E7%89%87%E9%A3%9E%E8%88%9E.gif"),
+                      linear - gradient(#fff, #fff) ! important;
+                  }.js_darkmode__bg__1 {
+                      background - image: -webkit - linear - gradient(left, transparent, rgb(153, 153, 152), transparent) ! important;
                   }
-                }
-              </style>
+              } </style>
+
             - | # 给文章加上磨砂背景，防止被背景影响阅读；同时加上加载动画
               <style>
                 .container.content {
