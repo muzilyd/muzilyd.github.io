@@ -17,7 +17,7 @@ tags: Jetson agx xavier
 ```
 
 ## 4、成功之后在终端中打开sdkmanger
-<php>
+```bash
 1.sdkmanager  #直接输入sdkmanager就行
-</php>
+```
 
