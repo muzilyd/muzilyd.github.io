@@ -43,7 +43,7 @@ sudo apt-get upgrade
 ```
 
 ## 2、下载安装包（这里是4.6版本，建议下载最新的稳定版本）
-[链接](https://developer.nvidia.com/embedded/jetpack)
+[安装包下载链接](https://developer.nvidia.com/embedded/jetpack)
 
 ![sdkmanager](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/sdkmanager.png)
 
