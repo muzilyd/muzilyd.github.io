@@ -13,11 +13,11 @@ tags: Jetson agx xavier
 
 ## 3、Jetson agx xavier安装sdkmanager
 ```bash
-1.sudo apt install ./sdkmanager_1.6.1-8175_amd64
+sudo apt install ./sdkmanager_1.6.1-8175_amd64
 ```
 
 ## 4、成功之后在终端中打开sdkmanger
 ```bash
-1.sdkmanager  #直接输入sdkmanager就行
+sdkmanager  #直接输入sdkmanager就行
 ```
 
