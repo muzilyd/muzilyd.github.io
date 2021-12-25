@@ -100,7 +100,7 @@ sudo sh -c "echo 150 > /sys/devices/pwm-fan/target_pwm"
 2. 将agx倒过来把两个支架拆开
 3. 用卡片或者小针伸进板子和壳之间的缝里撬开它，他们之间主要就是依靠下图的这些卡口连在了一起所以直接撬开就行，**注意撬开后一定要慢慢拿起**，里面有一根风机线很细容易断
 ![agxpcie](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/agxpcie.png)
-4. 将买的固态插槽内
+4. 将买的固态插进槽内</br>
 ![pcie](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/pcie.png)
 5. 装好固态后，将其他的地方也重新装好，将agx开机
 6. SSD挂载（[原链接](https://www.jianshu.com/p/045df333042e?from=singlemessage)）提取了其中的精华
