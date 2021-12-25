@@ -5,12 +5,18 @@ tags: Jetson-agx-xavier
 ---
 
 ### 一、Jetson agx xavier刷机
+## 1、准备工作
+1. 首先你在自己的电脑下载vm安装虚拟机unbantu18.04/16.04(最好是18.04)（选择虚拟机内存的时候建议选择60g内存和4g运行内存）
+2. 用usb3.0口将你的电脑连接jetson板电源指示灯处type-C（一般买jetson-agx-xavier都会赠送线）
+3. 准备一根网线，将你的电脑和jetson-agx-xavier相连使两个设备连接到一个局域网之内（想要采用这种方法使agx使用电脑的WiFi的话可以参考这个[链接](https://blog.csdn.net/Baofu_Wu/article/details/105920335?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.opensearchhbase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.opensearchhbase)）
+4. 
 ## 1、开始之前一定要先换源，然后更新
 修改sources.list
 ```bash
 sudo gedit /etc/apt/sources.list
 ```
 将里面的文件换成以下的任意一个内容（哪个好用用哪个）
+
 清华源
 ```bash
 deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-updates main restricted universe multiverse
