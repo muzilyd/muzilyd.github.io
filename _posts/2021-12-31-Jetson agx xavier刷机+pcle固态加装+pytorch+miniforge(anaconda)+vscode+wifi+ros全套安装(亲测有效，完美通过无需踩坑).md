@@ -76,9 +76,9 @@ sdkmanager  #直接输入sdkmanager就行
 - 点击Flash，准备刷机
 - 按下并保持agx上的Recovery键（中间的键）
 - 按下并保持Power键（最左边的键），持续1s，然后同时松开这两个键，进入刷机模式。
-(2) 50%左右（各个人不一样）agx自动开机，需要重新进行配置，然后记住你设置的账号密码地址，后面虚拟机上需要输入（如果agx地址没有自动显示可以再agx终端上使用ifconfig命令查看）
+(2) 50%左右（各个人不一样）agx自动开机，需要重新进行配置，然后记住你设置的账号密码地址，后面虚拟机上需要输入（如果agx地址没有自动显示可以再agx终端上使用ifconfig命令查看）</br>
 ![sdkmanager3](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/sdkmanager3.png)
-(3) 经过漫长的等待之后，出现下列图标，恭喜你，你成功了
+(3) 经过漫长的等待之后，出现下列图标，恭喜你，你成功了</br>
 ![sdkmanager4](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/sdkmanager4.png)
 
 ## 9、基本配置
@@ -132,7 +132,7 @@ reboot
 ### 三、Jetson agx xavier wifi安装
 1. wifi我使用的使用的是intel ax200蓝牙/wifi模块网上都能买得到，一定要买ax200，我之前想要选用更高级的型号可能是内核跟不上无法使用，所以不要图新
 ![ax200](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/ax200.png)
-2. 由于我每一个方法都试了最后也不知道到底是哪个方法让我的wifi好了起来这里就从易到难给大家排序以下，你们一个个试试，看第几个好用（[链接1](https://blog.csdn.net/weixin_38693938/article/details/107997558?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163927502716780264059950%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=163927502716780264059950&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-3-107997558.pc_search_mgc_flag&utm_term=agx+xavier+%E6%97%A0%E7%BA%BF%E9%A9%B1%E5%8A%A8&spm=1018.2226.3001.4187)[链接2](https://blog.csdn.net/haigujiujian/article/details/114914875?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link)[链接3](https://blog.csdn.net/qq_45067735/article/details/113405263?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link)）
+2. 由于我每一个方法都试了最后也不知道到底是哪个方法让我的wifi好了起来这里就从易到难给大家排序以下，你们一个个试试，看第几个好用（[链接1](https://blog.csdn.net/weixin_38693938/article/details/107997558?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163927502716780264059950%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=163927502716780264059950&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-3-107997558.pc_search_mgc_flag&utm_term=agx+xavier+%E6%97%A0%E7%BA%BF%E9%A9%B1%E5%8A%A8&spm=1018.2226.3001.4187)，[链接2](https://blog.csdn.net/haigujiujian/article/details/114914875?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link)，[链接3](https://blog.csdn.net/qq_45067735/article/details/113405263?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link)）
 3. 大家最后可以在文章最后的评论区告诉我到底是哪一个好用哦！！
 
 ### 四、Jetson agx xavier pytorch安装
