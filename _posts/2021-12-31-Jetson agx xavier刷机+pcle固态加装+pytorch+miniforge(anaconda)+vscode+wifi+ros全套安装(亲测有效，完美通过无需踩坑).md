@@ -70,15 +70,15 @@ sdkmanager  #直接输入sdkmanager就行
 ![sdkmanager2](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/sdkmanager2.png)
 
 ## 8、第三步：已经开始下载了，期间会跳出很多的选项
-(1) 25%左右后面会让你选择手动运行（automatic setup）还是自动运行（manual setup），一定要选择手动运行（automatic setup）亲测自动运行根本行不通
+<br/>(1) 25%左右后面会让你选择手动运行（automatic setup）还是自动运行（manual setup），一定要选择手动运行（automatic setup）亲测自动运行根本行不通</br>
 - 在此之前我们已经使用了type-c转usb数据线将电脑和agx连接了起来（可以在虚拟机里使用lsusb查看是否连接上）
 - 将 Xavier 插上电源，并处于关机状态
 - 点击Flash，准备刷机
 - 按下并保持agx上的Recovery键（中间的键）
 - 按下并保持Power键（最左边的键），持续1s，然后同时松开这两个键，进入刷机模式。
-(2) 50%左右（各个人不一样）agx自动开机，需要重新进行配置，然后记住你设置的账号密码地址，后面虚拟机上需要输入（如果agx地址没有自动显示可以再agx终端上使用ifconfig命令查看）</br>
+<br/>(2) 50%左右（各个人不一样）agx自动开机，需要重新进行配置，然后记住你设置的账号密码地址，后面虚拟机上需要输入（如果agx地址没有自动显示可以再agx终端上使用ifconfig命令查看）</br>
 ![sdkmanager3](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/sdkmanager3.png)
-(3) 经过漫长的等待之后，出现下列图标，恭喜你，你成功了</br>
+<br/>(3) 经过漫长的等待之后，出现下列图标，恭喜你，你成功了</br>
 ![sdkmanager4](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/sdkmanager4.png)
 
 ## 9、基本配置
@@ -103,15 +103,15 @@ sudo sh -c "echo 150 > /sys/devices/pwm-fan/target_pwm"
 ![pcie](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/pcie.png)
 5. 装好固态后，将其他的地方也重新装好，将agx开机
 6. SSD挂载（[原链接](https://www.jianshu.com/p/045df333042e?from=singlemessage)）提取了其中的精华
-(1) NVMe SSD硬盘仅作为系统盘（rootfs和用户区），系统的启动引导依然是通过SD卡或EMMC，比如升级设备树dtb 还是在SD卡或EMMC中
-(2) 准备M.2 Key M SSD
-(3) 打开Ubuntu18.04自带 Disks 工具，'Ctrl+F' 或点击右上角选择‘Format Disk' 并将其格式化为GPT 格式(可以在搜索中搜到disks工具)
-(4) 格式化时必须选择“Ext4”， 等待完成后，点击下方 '三角按钮'，mount 到固定目录如/media/nvidia/xxxx
-(5) 参考下图:
+<br/>(1) NVMe SSD硬盘仅作为系统盘（rootfs和用户区），系统的启动引导依然是通过SD卡或EMMC，比如升级设备树dtb 还是在SD卡或EMMC中</br>
+<br/>(2) 准备M.2 Key M SSD</br>
+<br/>(3) 打开Ubuntu18.04自带 Disks 工具，'Ctrl+F' 或点击右上角选择‘Format Disk' 并将其格式化为GPT 格式(可以在搜索中搜到disks工具)</br>
+<br/>(4) 格式化时必须选择“Ext4”， 等待完成后，点击下方 '三角按钮'，mount 到固定目录如/media/nvidia/xxxx</br>
+<br/>(5) 参考下图:</br>
 ![pcie1](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/pcie1.webp)
 ![pcie2](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/pcie2.webp)
 ![pcie3](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/pcie3.webp)
-(6) 在终端依次中输入
+<br/>(6) 在终端依次中输入</br>
 ```bash
 git clone https://github.com/jetsonhacks/rootOnNVMe.git
 ```
@@ -127,7 +127,7 @@ cd rootOnNVMe
 ```bash
 reboot
 ```
-(7) 去home查看属性就可以看到你的内存已经变多啦！
+<br/>(7) 去home查看属性就可以看到你的内存已经变多啦！</br>
 
 ### 三、Jetson agx xavier wifi安装
 1. wifi我使用的使用的是intel ax200蓝牙/wifi模块网上都能买得到，一定要买ax200，我之前想要选用更高级的型号可能是内核跟不上无法使用，所以不要图新
