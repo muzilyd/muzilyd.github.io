@@ -75,8 +75,8 @@ sdkmanager  #直接输入sdkmanager就行
 - 将 Xavier 插上电源，并处于关机状态
 - 点击Flash，准备刷机
 - 按下并保持agx上的Recovery键（中间的键）
-- 按下并保持Power键（最左边的键），持续1s，然后同时松开这两个键，进入刷机模式。</br>
-<br/>(2) 50%左右（各个人不一样）agx自动开机，需要重新进行配置，然后记住你设置的账号密码地址，后面虚拟机上需要输入（如果agx地址没有自动显示可以再agx终端上使用ifconfig命令查看）</br>
+- 按下并保持Power键（最左边的键），持续1s，然后同时松开这两个键，进入刷机模式。
+<p/><br/>(2) 50%左右（各个人不一样）agx自动开机，需要重新进行配置，然后记住你设置的账号密码地址，后面虚拟机上需要输入（如果agx地址没有自动显示可以再agx终端上使用ifconfig命令查看）</br></p>
 ![sdkmanager3](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/sdkmanager3.png)
 <br/>(3) 经过漫长的等待之后，出现下列图标，恭喜你，你成功了</br>
 ![sdkmanager4](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/sdkmanager4.png)
