@@ -11,9 +11,9 @@ tags: Jetson agx xavier
 ## 2、下载安装包（这里是4.6版本，建议下载最新的稳定版本）
 [链接](https://developer.nvidia.com/embedded/jetpack)
 
-![sdkmanager](/muzilyd/blog-image/jetson agx xavier/sdkmanager.png)
+![image](jetson agx xavier/sdkmanager.png)
 
-## 3、Jetson agx xavier安装sdkmanager
+## 3、Jetson agx xavier安装sdkmanagerimage
 ```bash
 sudo apt install ./sdkmanager_1.6.1-8175_amd64
 ```
