@@ -94,6 +94,7 @@ sudo nvpmodel -m 0
 ```bash
 sudo sh -c "echo 150 > /sys/devices/pwm-fan/target_pwm"
 ```
+## 10、在刷机完成之后最好再重新进行一下第2步：换源更新
 
 ### 二、Jetson agx xavier pcie固态加装
 1. 买一块M.2KeySSD的固态
@@ -136,4 +137,43 @@ reboot
 2. 由于我每一个方法都试了最后也不知道到底是哪个方法让我的wifi好了起来这里就从易到难给大家排序以下，你们一个个试试，看第几个好用（[链接1](https://blog.csdn.net/weixin_38693938/article/details/107997558?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163927502716780264059950%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=163927502716780264059950&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-3-107997558.pc_search_mgc_flag&utm_term=agx+xavier+%E6%97%A0%E7%BA%BF%E9%A9%B1%E5%8A%A8&spm=1018.2226.3001.4187)，[链接2](https://blog.csdn.net/haigujiujian/article/details/114914875?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link)，[链接3](https://blog.csdn.net/qq_45067735/article/details/113405263?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link)）
 3. 大家最后可以在文章最后的评论区告诉我到底是哪一个好用哦！！
 
-### 四、Jetson agx xavier pytorch安装
+### 四、Jetson agx xavier miniforge(anaconda)安装
+1. 首先去[githubminiforge链接](https://github.com/conda-forge/miniforge)处下载压缩包
+![miniforge1](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/miniforge1.png)
+![miniforge2](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/miniforge2.png)
+2. 然后使用命令安装
+```bash
+sh Miniforge-pypy3-4.8.3-4-Linux-aarch64.sh
+```
+3. 然后切换源(任选其一)
+```bash
+# 这里使用国科大镜像源
+conda config --prepend channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+conda config --prepend channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+conda config --set show_channel_urls yes
+```
+
+```bash
+# 清华镜像源
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+```
+执行完以上命令会在当前用户目录下生成一个.condarc文件，运行cat ~/.condarc命令查看文件内容(一定要把- defaults删除掉)：
+```bash
+channels:
+  - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+  - defaults
+show_channel_urls: true
+```
+4. 添加环境变量</br>
+在环境配置文件里加一个alias，首先编辑vim ~/.bashrc，添加如下内容：alias sudo="sudo env PATH=$PATH"，最后执行source ~/.bashrc使新配置的内容生效。
+5. 运行命令conda即可查看当前conda版本
+6. 在conda中创建虚拟环境（为后面安装pytorch做准备，pytorch最好用python3.6，所以创建一个python3.6的虚拟机）
+```bash
+conda create -n pytorch python=3.6
+```
+7. 执行conda activate pytorch命令即可变为pytorch环境
+
+### 五、Jetson agx xavier pytorch安装
