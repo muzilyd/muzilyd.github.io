@@ -4,3 +4,20 @@ title: Jetson agx xavier刷机+pcle固态加装+pytorch+miniforge(anaconda)+vsco
 tags: Jetson agx xavier
 ---
 
+### 一、Jetson agx xavier刷机
+## 1、开始之前一定要先换源，然后更新
+
+
+## 2、下载安装包（这里是4.6版本，建议下载最新的稳定版本）
+[链接]https://developer.nvidia.com/embedded/jetpack
+
+## 3、Jetson agx xavier安装sdkmanager
+```bash
+1.sudo apt install ./sdkmanager_1.6.1-8175_amd64
+```
+
+## 4、成功之后在终端中打开sdkmanger
+<php>
+1.sdkmanager  #直接输入sdkmanager就行
+</php>
+
