@@ -159,7 +159,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/f
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 conda config --set show_channel_urls yes
 ```
-执行完以上命令会在当前用户目录下生成一个.condarc文件，运行cat ~/.condarc命令查看文件内容(一定要把- defaults删除掉)：
+执行完以上命令会在当前用户目录下生成一个.condarc文件，运行cat ~/.condarc命令查看文件内容(一定要把- defaults删除掉,博主就是因为没有删除defaults后面创建虚拟环境有很多错)：
 ```bash
 channels:
   - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
