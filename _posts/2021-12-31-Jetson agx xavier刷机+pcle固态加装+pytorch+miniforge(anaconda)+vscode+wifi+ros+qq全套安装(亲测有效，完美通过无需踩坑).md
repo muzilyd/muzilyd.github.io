@@ -200,7 +200,7 @@ python3 -c 'import torch; print(torch.cuda.is_available())' #如果成功了就�
 ```bash
 pip3 install -U "numpy==1.19.4"
 ```
-<br/>(2)设置OpenBLAS
+(2)设置OpenBLAS
 ```bash
 vim ~/.bashrc
 export OPENBLAS_CORETYPE=ARMV8
@@ -241,3 +241,35 @@ sudo apt install ros-melodic-desktop-full
 ```
 
 ### 七 Jetson agx xavier vscode安装
+1. 可以先去[vscode官网链接](https://code.visualstudio.com/docs/?dv=linuxarm64_deb)下载安装包,选择arm64，deb格式，安装包的格式：code_1.63.2-1639561157_arm64
+![vscode](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/vscode.png)
+2. 也可用下面的命令自动下载安装包：
+```bash
+wget https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-arm64
+```
+3. 下载好后安装
+```bash
+sudo dpkg -i code_1.57.1-1623936438_arm64.deb
+```
+4. 输入下面的代码即可打开
+```bash
+code
+```
+5. 也可以在全部软件界面找到vscode
+![vscodeicon](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/vscodeicon.png)
+
+### 八 Jetson agx xavier qq安装
+1. 首先进入[qq官网链接](https://im.qq.com/linuxqq/download.html)下载安装包
+![qqdownload](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/qqdownload.png)
+2. 当前版本的QQ Linux版依赖gtk2.0，安装QQ Linux版前请确保你的系统已安装gtk2.0，根据以下命令安装：
+```bash
+sudo apt install libgtk2.0-0
+```
+3. 开始安装qq
+```bash
+sudo dpkg -i linuxqq_2.0.0-b2-1089_arm64.deb
+```
+4. 如果版本更新后登录出现闪退情况，请删除 ~/.config/tencent-qq/#你的QQ号# 目录后重新登录
+5. 然后你就能看到你的qq啦!注意linux上的qq只能用二维码登录哦，不要要求太多啦，能传文件聊天就行，嘿嘿嘿~
+
+### Jetson agx xavier全套安装到此结束，各位小伙伴觉得不错的话可以给我[打赏](/merger/)哦
