@@ -274,4 +274,3 @@ sudo dpkg -i linuxqq_2.0.0-b2-1089_arm64.deb
 
 ### 如果以上的安装有什么问题可以在下方的评论区里评论，我会帮大家解答和更改
 ### Jetson agx xavier全套安装到此结束，各位小伙伴觉得不错的话可以给我[打赏](https://muzilyd.github.io/merger/)哦
-<a href="/merger/">打赏</a>
