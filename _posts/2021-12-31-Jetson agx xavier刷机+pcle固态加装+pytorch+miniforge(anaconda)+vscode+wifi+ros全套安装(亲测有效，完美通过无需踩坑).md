@@ -177,3 +177,26 @@ conda create -n pytorch python=3.6
 7. 执行conda activate pytorch命令即可变为pytorch环境
 
 ### 五、Jetson agx xavier pytorch安装
+1. 使用常规的anaconda方法无法安装pytorch，Nvidia官方为我们提供了.whl文件，[官网链接](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-10-now-available/72048)(因为是外网，建议翻墙打开)
+2. 然后打开刚刚**创建的python3.6的环境**，一定要打开这个不然后面下载会报错，python3.6对应的就是后面安装包里的**cp36**，需要其他python包版本的可以自行查看
+3. 根据自己的JetPack版本和Python版本，从Nvidia官网选择所需要的PyTorch进行下载，如下图所示：</br>
+![pytorch](https://raw.githubusercontent.com/muzilyd/blog-image/main/jetson%20agx%20xavier/pytorch.png)
+3. 下载完成之后，按以下程序进行安装下载：
+```bash
+sudo apt-get install python3-pip libopenblas-base libopenmpi-dev 
+pip3 install Cython
+pip3 install numpy  torch-1.10.0-cp36-cp36m-linux_aarch64.whl
+```
+4. 选择与 pytorch 版本对应的 torchvision,自己去[链接](https://github.com/pytorch/vision#installation)查询pytorch对应torchvision版本,**一定要改为所需要的版本号**
+```bash
+sudo apt-get install libjpeg-dev zlib1g-dev
+git clone --branch <version> https://github.com/pytorch/vision torchvision   # 将‘ <version> ’改为所需要的版本号
+cd torchvision
+sudo python setup.py install
+export BUILD_VERSION=<version>
+cd ../  # attempting to load torchvision from build dir will result in import error
+#pip install 'pillow<7' # always needed for Python 2.7, not needed torchvision v0.5.0+ with Python 3.6
+```
+5. 安装成功之后就可以调用pytorch敲代码啦!
+
+### 六、Jetson agx xavier ros安装
