@@ -67,7 +67,7 @@ ZhangJian College, NanTong University, JiangSu
 
 ## Blogs
 
-- Jetson agx xavier刷机+pcle固态加装+pytorch+miniforge(anaconda)+vscode+wifi+ros全套安装(亲测有效，完美通过无需踩坑)
+- [Jetson agx xavier刷机+pcle固态加装+pytorch+miniforge(anaconda)+vscode+wifi+ros全套安装(亲测有效，完美通过无需踩坑)](https://muzilyd.github.io/2021/12/31/Jetson-agx-xavier%E5%85%A8%E5%A5%97%E5%AE%89%E8%A3%85/)
 <!-- .slide -->
 
 ## Toolchains
