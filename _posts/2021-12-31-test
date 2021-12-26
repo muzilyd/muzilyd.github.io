@@ -1,1 +1,6 @@
-test
+---
+redirect_from: /_posts/2021-12-31-test
+title: test
+tags:
+  - 程序设计
+---
