@@ -1,5 +1,5 @@
 ---
-redirect_from: /_posts/2021-12-31-Jetson agx xavier刷机+pcle固态加装+pytorch+miniforge(anaconda)+vscode+wifi+ros+qq全套安装(亲测有效，完美通过无需踩坑).md/
+redirect_from: /_posts/2021/12/31/Jetson-agx-xavier%E5%88%B7%E6%9C%BA+pcle%E5%9B%BA%E6%80%81%E5%8A%A0%E8%A3%85+pytorch+miniforge(anaconda)+vscode+wifi+ros+qq%E5%85%A8%E5%A5%97%E5%AE%89%E8%A3%85(%E4%BA%B2%E6%B5%8B%E6%9C%89%E6%95%88-%E5%AE%8C%E7%BE%8E%E9%80%9A%E8%BF%87%E6%97%A0%E9%9C%80%E8%B8%A9%E5%9D%91)/
 title: Jetson agx xavier刷机+pcle固态加装+pytorch+miniforge(anaconda)+vscode+wifi+ros+qq全套安装(亲测有效，完美通过无需踩坑)
 tags: Jetson-agx-xavier
 ---
