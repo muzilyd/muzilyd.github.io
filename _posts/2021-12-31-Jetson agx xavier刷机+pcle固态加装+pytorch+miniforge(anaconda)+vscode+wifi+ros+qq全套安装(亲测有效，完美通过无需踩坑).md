@@ -199,8 +199,8 @@ python3 -c 'import torch; print(torch.cuda.is_available())' #如果成功了就�
 (1) 降低numpy版本
 ```bash
 pip3 install -U "numpy==1.19.4"
-```</br>
-(2)设置OpenBLAS
+```
+<br/>(2)设置OpenBLAS
 ```bash
 vim ~/.bashrc
 export OPENBLAS_CORETYPE=ARMV8
