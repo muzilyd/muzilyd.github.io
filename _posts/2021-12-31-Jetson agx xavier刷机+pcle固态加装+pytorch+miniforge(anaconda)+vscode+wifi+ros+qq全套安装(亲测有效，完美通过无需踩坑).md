@@ -272,4 +272,5 @@ sudo dpkg -i linuxqq_2.0.0-b2-1089_arm64.deb
 4. 如果版本更新后登录出现闪退情况，请删除 ~/.config/tencent-qq/#你的QQ号# 目录后重新登录
 5. 然后你就能看到你的qq啦!注意linux上的qq只能用二维码登录哦，不要要求太多啦，能传文件聊天就行，嘿嘿嘿~
 
-### Jetson agx xavier全套安装到此结束，各位小伙伴觉得不错的话可以给我<a href="/merger/">打赏</a>哦
+### Jetson agx xavier全套安装到此结束，各位小伙伴觉得不错的话可以给我哦
+<a href="/merger/">打赏</a>
