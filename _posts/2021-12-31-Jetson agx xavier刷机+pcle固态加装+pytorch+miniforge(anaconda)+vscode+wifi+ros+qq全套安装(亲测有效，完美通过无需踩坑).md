@@ -170,7 +170,11 @@ show_channel_urls: true
 4. 添加环境变量</br>
 在环境配置文件里加一个alias，首先编辑vim ~/.bashrc，添加如下内容：alias sudo="sudo env PATH=$PATH"，最后执行source ~/.bashrc使新配置的内容生效。
 5. 运行命令conda即可查看当前conda版本
-6. 在conda中创建虚拟环境（为后面安装pytorch做准备，pytorch最好用python3.6，所以创建一个python3.6的虚拟机）
+6. 然后别忘了更新conda
+```bash
+conda update --all #更新所有库
+```
+8. 在conda中创建虚拟环境（为后面安装pytorch做准备，pytorch最好用python3.6，所以创建一个python3.6的虚拟机）
 ```bash
 conda create -n pytorch python=3.6
 ```
@@ -187,7 +191,22 @@ sudo apt-get install python3-pip libopenblas-base libopenmpi-dev
 pip3 install Cython
 pip3 install numpy  torch-1.10.0-cp36-cp36m-linux_aarch64.whl
 ```
-4. 选择与 pytorch 版本对应的 torchvision,自己去[链接](https://github.com/pytorch/vision#installation)查询pytorch对应torchvision版本,**一定要改为所需要的版本号**
+4. 安装完毕后可以在终端输入以下命令检验PyTorch是否正确安装：
+```bash
+python3 -c 'import torch; print(torch.cuda.is_available())' #如果成功了就会返回TRUE
+```
+5. 如果不是TRUE，出现了Illegal instruction (core dumped)错误，这是因为numpy 1.19.5和OpenBLAS冲突可以采用以下两种方法来解决：</br>
+(1) 降低numpy版本
+```bash
+pip3 install -U "numpy==1.19.4"
+```
+(2)设置OpenBLAS
+```bash
+vim ~/.bashrc
+export OPENBLAS_CORETYPE=ARMV8
+source ~/.bashrc
+```
+6. 选择与 pytorch 版本对应的 torchvision,自己去[链接](https://github.com/pytorch/vision#installation)查询pytorch对应torchvision版本,**一定要改为所需要的版本号**
 ```bash
 sudo apt-get install libjpeg-dev zlib1g-dev
 git clone --branch <version> https://github.com/pytorch/vision torchvision   # 将‘ <version> ’改为所需要的版本号
@@ -197,6 +216,28 @@ export BUILD_VERSION=<version>
 cd ../  # attempting to load torchvision from build dir will result in import error
 #pip install 'pillow<7' # always needed for Python 2.7, not needed torchvision v0.5.0+ with Python 3.6
 ```
-5. 安装成功之后就可以调用pytorch敲代码啦!
+7. 安装成功之后就可以调用pytorch敲代码啦!
 
 ### 六、Jetson agx xavier ros安装
+1. Xavier不能够用常规方法安装ROS，需要通过ROSXavier进行安装，安装步骤十分简单：
+```bash
+git clone https://github.com/jetsonhacks/installROSXavier.git
+cd installROSXavier
+./installROSXavier
+```
+2. 安装好后在终端输入roscore检查能否正常启动，如果不能，则用以下命令打开.bashrc文件添加环境变量
+```bash
+sudo gedit ~/.bashrc 
+```
+3. 文件的最后面加上
+```bash
+export LD_LIBRARY_PATH=/opt/ros/melodic/lib
+export LC_ALL="C"
+```
+4. 进行更新
+```bash
+sudo apt update
+sudo apt install ros-melodic-desktop-full
+```
+
+### 七 Jetson agx xavier vscode安装
