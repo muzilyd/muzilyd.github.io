@@ -69,6 +69,7 @@ ZhangJian College, NanTong University, JiangSu
 
 - [Jetson agx xavier刷机+pcle固态加装+pytorch+miniforge(anaconda)+vscode+wifi+ros全套安装(亲测有效，完美通过无需踩坑)](https://muzilyd.github.io/2021/12/31/Jetson-agx-xavier%E5%85%A8%E5%A5%97%E5%AE%89%E8%A3%85/)
 - [pygame轨迹跟踪仿真（一）](https://muzilyd.github.io/2021/12/31/pygame%E8%BD%A8%E8%BF%B9%E8%B7%9F%E8%B8%AA%E4%BB%BF%E7%9C%9F-%E4%B8%80/)
+- [2022-1-3-pygame轨迹跟踪仿真（二）（一的优化版）](https://muzilyd.github.io/2022/01/03/pygame%E8%BD%A8%E8%BF%B9%E8%B7%9F%E8%B8%AA%E4%BB%BF%E7%9C%9F-%E4%BA%8C-%E4%B8%80%E7%9A%84%E4%BC%98%E5%8C%96%E7%89%88/)
 <!-- .slide -->
 
 ## Toolchains
