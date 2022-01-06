@@ -223,7 +223,7 @@ cd ../  # attempting to load torchvision from build dir will result in import er
 ```bash
 git clone https://github.com/jetsonhacks/installROSXavier.git
 cd installROSXavier
-./installROSXavier
+./installROS.sh -p ros-melodic-desktop -p ros-melodic-rgbd-launch
 ```
 2. 安装好后在终端输入roscore检查能否正常启动，如果不能，则用以下命令打开.bashrc文件添加环境变量
 ```bash
