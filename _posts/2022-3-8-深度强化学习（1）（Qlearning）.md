@@ -16,10 +16,10 @@ tags:
   <br/>输出：所有的状态和动作对应的价值Q</br>
 　<br/>1. 随机初始化所有的状态和动作对应的价值Q. 对于终止状态其Q值初始化为0.</br>
      2. for i from 1 to T，进行迭代。</br>
-     &ensp;a) 初始化S为当前状态序列的第一个状态。</br>
-     &ensp;b) 用ϵ−贪婪法在当前状态S选择出动作A</br>
-     &ensp;c) 在状态S执行当前动作A,得到新状态S′和奖励R</br>
-     &ensp;d)  更新价值函数Q(S,A):Q(S,A)+α(R+γmaxaQ(S′,a)−Q(S,A))</br>
-     &ensp;e) S=S′</br>
-     &ensp;f) 如果S′是终止状态，当前轮迭代完毕，否则转到步骤b</br>
+     &emsp;a) 初始化S为当前状态序列的第一个状态。</br>
+     &emsp;b) 用ϵ−贪婪法在当前状态S选择出动作A</br>
+     &emsp;c) 在状态S执行当前动作A,得到新状态S′和奖励R</br>
+     &emsp;d)  更新价值函数Q(S,A):Q(S,A)+α(R+γmaxaQ(S′,a)−Q(S,A))</br>
+     &emsp;e) S=S′</br>
+     &emsp;f) 如果S′是终止状态，当前轮迭代完毕，否则转到步骤b</br>
   
