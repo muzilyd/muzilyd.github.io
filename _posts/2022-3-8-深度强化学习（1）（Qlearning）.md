@@ -39,5 +39,5 @@ tags:
    3.gamma 是对未来 reward 的衰减值。</br>
    ![gamma_decline](https://github.com/muzilyd/blog-image/blob/ea18023fb2dce0ab587d997e0eb4cc475d034195/reinforcement%20learning/gamma%20decline.png)</br>
    &emsp;&emsp;(1)gamma = 1 时,在 s1 看到的 Q 是未来没有任何衰变的奖励,系统能够看到以后所有的状态的价值</br>
-   &emsp;&emsp;(2)gamma = 0 时,在 s1 只能看到眼前的reward
+   &emsp;&emsp;(2)gamma = 0 时,在 s1 只能看到眼前的reward</br>
    &emsp;&emsp;(3)gamma 从 0 变到 1, 对远处的价值看得越清楚, 所以机系统随着gamma的增加，对未来的价值就越来越重视, 不仅仅只看眼前的利益, 也为未来的价值着想。</br>
