@@ -22,4 +22,6 @@ tags:
      &emsp;d)  更新价值函数Q(S,A):Q(S,A)+α(R+γmaxaQ(S′,a)−Q(S,A))</br>
      &emsp;e) S=S′</br>
      &emsp;f) 如果S′是终止状态，当前轮迭代完毕，否则转到步骤b</br>
-  
+ 
+## 三、Qlearning例子帮助理解
+   <br/>
