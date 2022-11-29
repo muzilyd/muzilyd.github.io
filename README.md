@@ -26,7 +26,7 @@
 
 ZhangJian College, NanTong University, JiangSu
 
-- B.E. in Intelligent Manufacturing, Sept. 2018 - Jul. 2022(expected)
+- B.E. in Intelligent Manufacturing, Sept. 2018 - Jul. 2022
   - Embedded Tecnology
   - Robot Control
   - Deep Reinforcement Learning
