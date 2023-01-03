@@ -10,8 +10,6 @@ tags:
 
 ## 1、总体架构图
 
-![transformer](https://raw.githubusercontent.com/muzilyd/blog-image/main/Transformer/transformer.png)
-
 <div align='center'><img src="https://raw.githubusercontent.com/muzilyd/blog-image/main/Transformer/transformer.png"></div>
 
 ## 2、四个部分
