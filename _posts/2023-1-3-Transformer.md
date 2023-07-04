@@ -22,4 +22,3 @@ tags:
 
 4.解码器部分
 
-$M=K_{\mathrm{T}}\left(I_{\mathrm{m}}-I_{\mathrm{m} 0}\right)$
